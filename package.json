@@ -1,0 +1,21 @@
+{
+  "name": "homomorphic-notary-prototype",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "notary-server.js",
+  "scripts": {
+    "keygen": "node keygen.js",
+    "start": "nodemon notary-server.js",
+    "send": "node send.js",
+    "decrypt": "node decrypt.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "paillier-bigint": "^3.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
