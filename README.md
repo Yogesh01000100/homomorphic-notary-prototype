@@ -1,4 +1,8 @@
 ```
+mkdir keys
+```
+
+```
 npm run keygen → "Paillier keys generated…"
 ```
 ```
